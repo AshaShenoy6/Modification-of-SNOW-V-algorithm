@@ -1,0 +1,20 @@
+Tools used: 
+1.GCC Compliler
+2. Program Executed on Code Blocks
+3.Online chart generator.
+
+->256-bit key and 128-bit IV gievn as input in the program.
+
+->The program generates 128-bit keystream for one cycle.
+->The length of the keystream can be increased up to 100 Mb or more by increasing the cycles.
+->The keystream generated for one cycle is then taken as the IV for next cycle.
+
+->The output is stored in a file "output.txt".
+
+Steps to run the program:
+1)Copy the program-main to any C-compatible editor and run the code.
+  The output generated is copied to any filename specified in the program.'
+or
+2) Run the code on terminal by giving the commad:
+   -> gcc filename.c
+   ->./a.out
